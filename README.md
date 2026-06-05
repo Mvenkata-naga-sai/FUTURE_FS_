@@ -64,9 +64,9 @@ The primary objective of this project is to create an interactive and SEO-friend
 This Personal Portfolio Website demonstrates modern web development practices using React.js and related technologies. It provides a professional platform to showcase skills, projects, and achievements while maintaining responsiveness, accessibility, and SEO best practices.
 ---
 ### Author: 
+
 Venkata Naga Sai
+
 Full Stack Web Developer
-mahamkai.sai341@gmail.com
-Venkata Naga Sai
-Full Stack Web Developer
+
 Email: mahamkai.sai341@gmail.com
