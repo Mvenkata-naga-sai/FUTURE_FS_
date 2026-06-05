@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0a0f1e"/>
+  <!-- Background subtle grid -->
+  <pattern id="sgrid" width="50" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 40" fill="none" stroke="#111827" stroke-width="1"/>
+  </pattern>
+  <rect width="800" height="500" fill="url(#sgrid)"/>
+
+  <!-- Header bar -->
+  <rect x="40" y="30" width="720" height="50" rx="8" fill="#111827"/>
+  <text x="60" y="62" font-family="monospace" font-size="16" fill="#3b82f6" font-weight="bold">STOCK PORTFOLIO</text>
+  <text x="560" y="62" font-family="monospace" font-size="13" fill="#22c55e">▲ +2.4%  TODAY</text>
+
+  <!-- Portfolio cards -->
+  <!-- Card 1 -->
+  <rect x="40" y="100" width="165" height="80" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <text x="58" y="125" font-family="monospace" font-size="11" fill="#64748b">PORTFOLIO VALUE</text>
+  <text x="58" y="150" font-family="monospace" font-size="20" fill="#e2e8f0" font-weight="bold">₹24,580</text>
+  <text x="58" y="170" font-family="monospace" font-size="11" fill="#22c55e">▲ +₹580 today</text>
+
+  <!-- Card 2 -->
+  <rect x="215" y="100" width="165" height="80" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <text x="233" y="125" font-family="monospace" font-size="11" fill="#64748b">TOTAL GAIN</text>
+  <text x="233" y="150" font-family="monospace" font-size="20" fill="#22c55e" font-weight="bold">+18.3%</text>
+  <text x="233" y="170" font-family="monospace" font-size="11" fill="#64748b">since inception</text>
+
+  <!-- Card 3 -->
+  <rect x="390" y="100" width="165" height="80" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <text x="408" y="125" font-family="monospace" font-size="11" fill="#64748b">HOLDINGS</text>
+  <text x="408" y="150" font-family="monospace" font-size="20" fill="#e2e8f0" font-weight="bold">5 stocks</text>
+  <text x="408" y="170" font-family="monospace" font-size="11" fill="#64748b">across 3 sectors</text>
+
+  <!-- Card 4 -->
+  <rect x="565" y="100" width="195" height="80" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <text x="583" y="125" font-family="monospace" font-size="11" fill="#64748b">BEST PERFORMER</text>
+  <text x="583" y="150" font-family="monospace" font-size="18" fill="#22c55e" font-weight="bold">TCS ▲35%</text>
+  <text x="583" y="170" font-family="monospace" font-size="11" fill="#64748b">₹3,420 → ₹4,617</text>
+
+  <!-- Chart area -->
+  <rect x="40" y="198" width="480" height="220" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <text x="58" y="222" font-family="monospace" font-size="11" fill="#64748b">PORTFOLIO PERFORMANCE</text>
+  <text x="420" y="222" font-family="monospace" font-size="10" fill="#3b82f6">1W  1M  3M  1Y</text>
+
+  <!-- Y axis labels -->
+  <text x="44" y="248" font-family="monospace" font-size="9" fill="#374151">26k</text>
+  <text x="44" y="278" font-family="monospace" font-size="9" fill="#374151">24k</text>
+  <text x="44" y="308" font-family="monospace" font-size="9" fill="#374151">22k</text>
+  <text x="44" y="338" font-family="monospace" font-size="9" fill="#374151">20k</text>
+  <text x="44" y="368" font-family="monospace" font-size="9" fill="#374151">18k</text>
+
+  <!-- Grid lines -->
+  <line x1="68" y1="245" x2="508" y2="245" stroke="#1e293b" stroke-width="1"/>
+  <line x1="68" y1="275" x2="508" y2="275" stroke="#1e293b" stroke-width="1"/>
+  <line x1="68" y1="305" x2="508" y2="305" stroke="#1e293b" stroke-width="1"/>
+  <line x1="68" y1="335" x2="508" y2="335" stroke="#1e293b" stroke-width="1"/>
+  <line x1="68" y1="365" x2="508" y2="365" stroke="#1e293b" stroke-width="1"/>
+  <line x1="68" y1="395" x2="508" y2="395" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Chart fill gradient simulation -->
+  <polyline points="68,370 130,350 175,340 220,310 260,320 300,290 340,270 380,255 420,260 460,240 500,230" fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Area under line -->
+  <polygon points="68,395 68,370 130,350 175,340 220,310 260,320 300,290 340,270 380,255 420,260 460,240 500,230 500,395" fill="#3b82f6" opacity="0.08"/>
+
+  <!-- X axis labels -->
+  <text x="62" y="410" font-family="monospace" font-size="9" fill="#374151">JAN</text>
+  <text x="122" y="410" font-family="monospace" font-size="9" fill="#374151">FEB</text>
+  <text x="175" y="410" font-family="monospace" font-size="9" fill="#374151">MAR</text>
+  <text x="228" y="410" font-family="monospace" font-size="9" fill="#374151">APR</text>
+  <text x="278" y="410" font-family="monospace" font-size="9" fill="#374151">MAY</text>
+  <text x="332" y="410" font-family="monospace" font-size="9" fill="#374151">JUN</text>
+  <text x="382" y="410" font-family="monospace" font-size="9" fill="#374151">JUL</text>
+  <text x="432" y="410" font-family="monospace" font-size="9" fill="#374151">AUG</text>
+  <text x="480" y="410" font-family="monospace" font-size="9" fill="#374151">SEP</text>
+
+  <!-- Tooltip dot -->
+  <circle cx="500" cy="230" r="5" fill="#3b82f6"/>
+  <rect x="480" y="210" width="80" height="20" rx="4" fill="#3b82f6"/>
+  <text x="490" y="224" font-family="monospace" font-size="9" fill="white">₹24,580</text>
+
+  <!-- Stock table -->
+  <rect x="534" y="198" width="226" height="220" rx="8" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <text x="552" y="222" font-family="monospace" font-size="11" fill="#64748b">HOLDINGS</text>
+
+  <!-- Table header -->
+  <text x="552" y="242" font-family="monospace" font-size="9" fill="#374151">STOCK</text>
+  <text x="672" y="242" font-family="monospace" font-size="9" fill="#374151">P/L</text>
+  <line x1="546" y1="248" x2="754" y2="248" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Rows -->
+  <text x="552" y="266" font-family="monospace" font-size="11" fill="#e2e8f0">TCS</text>
+  <text x="660" y="266" font-family="monospace" font-size="11" fill="#22c55e">+35.0%</text>
+
+  <text x="552" y="292" font-family="monospace" font-size="11" fill="#e2e8f0">INFY</text>
+  <text x="660" y="292" font-family="monospace" font-size="11" fill="#22c55e">+12.4%</text>
+
+  <text x="552" y="318" font-family="monospace" font-size="11" fill="#e2e8f0">RELIANCE</text>
+  <text x="660" y="318" font-family="monospace" font-size="11" fill="#22c55e">+8.7%</text>
+
+  <text x="552" y="344" font-family="monospace" font-size="11" fill="#e2e8f0">WIPRO</text>
+  <text x="660" y="344" font-family="monospace" font-size="11" fill="#ef4444">-3.2%</text>
+
+  <text x="552" y="370" font-family="monospace" font-size="11" fill="#e2e8f0">HDFC</text>
+  <text x="660" y="370" font-family="monospace" font-size="11" fill="#22c55e">+5.1%</text>
+
+  <!-- Footer label -->
+  <text x="560" y="455" font-family="monospace" font-size="11" fill="#3b82f6" opacity="0.6">STOCK PORTFOLIO TRACKER</text>
+</svg>
