@@ -1,8 +1,8 @@
-# Ember & Oak — Website Pitch
+# Agni Maati — Website Pitch
 
 ## The Business
 
-**Ember & Oak** is a cozy upscale bistro in Austin, Texas, built around a wood-fired kitchen, locally sourced ingredients, and an intimate dining room that feels like a beautifully renovated farmhouse.
+**Agni Maati** is a cozy upscale bistro in Austin, Texas, built around a wood-fired kitchen, locally sourced ingredients, and an intimate dining room that feels like a beautifully renovated farmhouse.
 
 ---
 
