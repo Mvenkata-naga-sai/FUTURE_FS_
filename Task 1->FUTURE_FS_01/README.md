@@ -65,7 +65,7 @@ This Personal Portfolio Website demonstrates modern web development practices us
 ---
 ### Author: 
 
-Venkata Naga Sai
+***Venkata Naga Sai***
 
 Full Stack Web Developer
 
